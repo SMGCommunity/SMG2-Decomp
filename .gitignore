@@ -1,0 +1,7 @@
+*.exe
+*.o
+*.dol
+build/*
+*.pyc
+build.ninja
+.ninja_*

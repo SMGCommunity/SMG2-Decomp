@@ -1,0 +1,23 @@
+{
+    "min_version": "1.0.0",
+    "custom_make": "ninja",
+    "build_target": false,
+    "watch_patterns": [
+        "*.c",
+        "*.cp",
+        "*.cpp",
+        "*.h",
+        "*.hpp",
+        "*.inc",
+        "*.py",
+        "*.yml",
+        "*.txt",
+        "*.json"
+    ],
+    "units": [
+        {
+            "name": "main/Runtime.PPCEABI.H/__init_cpp_exceptions",
+            "target_path": "build/SB4E01/obj/Runtime.PPCEABI.H/__init_cpp_exceptions.o"
+        }
+    ]
+}

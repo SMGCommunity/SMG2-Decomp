@@ -1,0 +1,5 @@
+object: orig/SB4E01/sys/main.dol
+hash: 7D79810889824EDD01C4FF02624713060A69818C
+splits: config/SB4E01/splits.txt
+symbols: config/SB4E01/symbols.txt
+mw_comment_version: 14
