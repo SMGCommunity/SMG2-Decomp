@@ -208,14 +208,12 @@ def DolphinLib(lib_name: str, objects: List[Object]) -> Dict[str, Any]:
         "objects": objects,
     }
 
-
-# Helper function for REL script objects
-def Rel(lib_name: str, objects: List[Object]) -> Dict[str, Any]:
+def GameLib(lib_name: str, objects: List[Object]) -> Dict[str, Any]:
     return {
         "lib": lib_name,
-        "mw_version": "GC/1.3.2",
-        "cflags": cflags_rel,
-        "host": True,
+        "mw_version": "Wii/1.3",
+        "cflags": cflags_base,
+        "host": False,
         "objects": objects,
     }
 
@@ -236,6 +234,23 @@ config.libs = [
             Object(NonMatching, "Runtime.PPCEABI.H/__init_cpp_exceptions.cpp"),
         ],
     },
+
+    GameLib(
+        "NameObj",
+        [
+            Object(NonMatching, "Game/NameObj/MovementOnOffGroupHolder.cpp"),
+            Object(NonMatching, "Game/NameObj/NameObj.cpp"),
+            Object(NonMatching, "Game/NameObj/NameObjAdaptor.cpp"),
+            Object(NonMatching, "Game/NameObj/NameObjCategoryList.cpp"),
+            Object(NonMatching, "Game/NameObj/NameObjExecuteHolder.cpp"),
+            Object(NonMatching, "Game/NameObj/NameObjFactory.cpp"),
+            Object(NonMatching, "Game/NameObj/NameObjFinder.cpp"),
+            Object(NonMatching, "Game/NameObj/NameObjGroup.cpp"),
+            Object(NonMatching, "Game/NameObj/NameObjHolder.cpp"),
+            Object(NonMatching, "Game/NameObj/NameObjListExecutor.cpp"),
+            Object(NonMatching, "Game/NameObj/NameObjRegister.cpp")
+        ],
+    ),
 ]
 
 if args.mode == "configure":

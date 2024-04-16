@@ -16,8 +16,48 @@
     ],
     "units": [
         {
+            "name": "main/Game/NameObj/MovementOnOffGroupHolder",
+            "target_path": "build/SB4E01/obj/Game/NameObj/MovementOnOffGroupHolder.o"
+        },
+        {
             "name": "main/Game/NameObj/NameObj",
             "target_path": "build/SB4E01/obj/Game/NameObj/NameObj.o"
+        },
+        {
+            "name": "main/Game/NameObj/NameObjAdaptor",
+            "target_path": "build/SB4E01/obj/Game/NameObj/NameObjAdaptor.o"
+        },
+        {
+            "name": "main/Game/NameObj/NameObjCategoryList",
+            "target_path": "build/SB4E01/obj/Game/NameObj/NameObjCategoryList.o"
+        },
+        {
+            "name": "main/Game/NameObj/NameObjExecuteHolder",
+            "target_path": "build/SB4E01/obj/Game/NameObj/NameObjExecuteHolder.o"
+        },
+        {
+            "name": "main/Game/NameObj/NameObjFactory",
+            "target_path": "build/SB4E01/obj/Game/NameObj/NameObjFactory.o"
+        },
+        {
+            "name": "main/Game/NameObj/NameObjFinder",
+            "target_path": "build/SB4E01/obj/Game/NameObj/NameObjFinder.o"
+        },
+        {
+            "name": "main/Game/NameObj/NameObjGroup",
+            "target_path": "build/SB4E01/obj/Game/NameObj/NameObjGroup.o"
+        },
+        {
+            "name": "main/Game/NameObj/NameObjHolder",
+            "target_path": "build/SB4E01/obj/Game/NameObj/NameObjHolder.o"
+        },
+        {
+            "name": "main/Game/NameObj/NameObjListExecutor",
+            "target_path": "build/SB4E01/obj/Game/NameObj/NameObjListExecutor.o"
+        },
+        {
+            "name": "main/Game/NameObj/NameObjRegister",
+            "target_path": "build/SB4E01/obj/Game/NameObj/NameObjRegister.o"
         },
         {
             "name": "main/Runtime.PPCEABI.H/__init_cpp_exceptions",
