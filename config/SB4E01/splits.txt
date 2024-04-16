@@ -13,6 +13,10 @@ Sections:
 	.sdata2     type:rodata
 	.sbss2      type:bss
 
+Game/NameObj/NameObj.cpp:
+	.text       start:0x80339610 end:0x80339900
+	.data       start:0x806B33E8 end:0x806B3418
+
 Runtime.PPCEABI.H/__init_cpp_exceptions.cpp:
 	.text       start:0x8062E8FC end:0x8062E96C
 	.ctors      start:0x80643D20 end:0x80643D24 rename:.ctors$10

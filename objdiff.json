@@ -16,6 +16,10 @@
     ],
     "units": [
         {
+            "name": "main/Game/NameObj/NameObj",
+            "target_path": "build/SB4E01/obj/Game/NameObj/NameObj.o"
+        },
+        {
             "name": "main/Runtime.PPCEABI.H/__init_cpp_exceptions",
             "target_path": "build/SB4E01/obj/Runtime.PPCEABI.H/__init_cpp_exceptions.o"
         }
