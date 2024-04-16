@@ -56,6 +56,39 @@ Game/NameObj/NameObjListExecutor.cpp:
 Game/NameObj/NameObjRegister.cpp:
 	.text       start:0x80343E20 end:0x80343E50
 
+RVL_SDK/os/OS.c:
+	.text       start:0x805B2CB0 end:0x805B4190
+	.data       start:0x8070C7A0 end:0x8070CBAC
+	.bss        start:0x8077E4C0 end:0x8077E530
+	.sdata      start:0x807D0928 end:0x807D0958
+	.sbss       start:0x807D6620 end:0x807D6668
+	.sdata2     start:0x807E26E8 end:0x807E26F0
+
+RVL_SDK/os/OSAlarm.c:
+	.text       start:0x805B4190 end:0x805B4B10
+	.data       start:0x8070CBB0 end:0x8070CBC0
+	.sbss       start:0x807D6668 end:0x807D6670
+
+RVL_SDK/os/OSAlloc.c:
+	.text       start:0x805B4B10 end:0x805B4E30
+	.sdata      start:0x807D0958 end:0x807D0960
+	.sbss       start:0x807D6670 end:0x807D6680
+
+RVL_SDK/os/OSArena.c:
+	.text       start:0x805B4E30 end:0x805B4F30
+	.sdata      start:0x807D0960 end:0x807D0968
+	.sbss       start:0x807D6680 end:0x807D6688
+
+RVL_SDK/os/__start.c:
+	.init       start:0x80004000 end:0x80004360
+	.sbss       start:0x807D6720 end:0x807D6724
+
+RVL_SDK/os/__ppc_eabi_init.cpp:
+	.init       start:0x80004360 end:0x800043C4
+
+RVL_SDK/os/__mem.c:
+	.init       start:0x800043C4 end:0x80004744
+
 Runtime.PPCEABI.H/__init_cpp_exceptions.cpp:
 	.text       start:0x8062E8FC end:0x8062E96C
 	.ctors      start:0x80643D20 end:0x80643D24 rename:.ctors$10

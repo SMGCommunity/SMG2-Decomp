@@ -197,9 +197,7 @@ cflags_rel = [
 
 config.linker_version = "Wii/1.3"
 
-
-# Helper function for Dolphin libraries
-def DolphinLib(lib_name: str, objects: List[Object]) -> Dict[str, Any]:
+def RVLLib(lib_name: str, objects: List[Object]) -> Dict[str, Any]:
     return {
         "lib": lib_name,
         "mw_version": "Wii/1.3",
@@ -251,6 +249,19 @@ config.libs = [
             Object(NonMatching, "Game/NameObj/NameObjRegister.cpp")
         ],
     ),
+
+    RVLLib(
+        "os",
+        [
+            Object(NonMatching, "RVL_SDK/os/__start.c"),
+            Object(NonMatching, "RVL_SDK/os/__ppc_eabi_init.cpp"),
+            Object(NonMatching, "RVL_SDK/os/__mem.c"),
+            Object(NonMatching, "RVL_SDK/os/OS.c"),
+            Object(NonMatching, "RVL_SDK/os/OSAlarm.c"),
+            Object(NonMatching, "RVL_SDK/os/OSAlloc.c"),
+            Object(NonMatching, "RVL_SDK/os/OSArena.c")
+        ],
+    )
 ]
 
 if args.mode == "configure":

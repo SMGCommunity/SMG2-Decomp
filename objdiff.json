@@ -60,6 +60,34 @@
             "target_path": "build/SB4E01/obj/Game/NameObj/NameObjRegister.o"
         },
         {
+            "name": "main/RVL_SDK/os/OS",
+            "target_path": "build/SB4E01/obj/RVL_SDK/os/OS.o"
+        },
+        {
+            "name": "main/RVL_SDK/os/OSAlarm",
+            "target_path": "build/SB4E01/obj/RVL_SDK/os/OSAlarm.o"
+        },
+        {
+            "name": "main/RVL_SDK/os/OSAlloc",
+            "target_path": "build/SB4E01/obj/RVL_SDK/os/OSAlloc.o"
+        },
+        {
+            "name": "main/RVL_SDK/os/OSArena",
+            "target_path": "build/SB4E01/obj/RVL_SDK/os/OSArena.o"
+        },
+        {
+            "name": "main/RVL_SDK/os/__start",
+            "target_path": "build/SB4E01/obj/RVL_SDK/os/__start.o"
+        },
+        {
+            "name": "main/RVL_SDK/os/__ppc_eabi_init",
+            "target_path": "build/SB4E01/obj/RVL_SDK/os/__ppc_eabi_init.o"
+        },
+        {
+            "name": "main/RVL_SDK/os/__mem",
+            "target_path": "build/SB4E01/obj/RVL_SDK/os/__mem.o"
+        },
+        {
             "name": "main/Runtime.PPCEABI.H/__init_cpp_exceptions",
             "target_path": "build/SB4E01/obj/Runtime.PPCEABI.H/__init_cpp_exceptions.o"
         }
