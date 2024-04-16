@@ -1,4 +1,4 @@
-# Unizo
+# SMG2-Decomp
 A decompilation of **Super Mario Galaxy 2**. This repository can assemble and recompile the main DOL back 1:1 to the original.
 
 # Setting Up
