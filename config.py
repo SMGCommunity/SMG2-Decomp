@@ -259,7 +259,13 @@ config.libs = [
             Object(NonMatching, "RVL_SDK/os/OS.c"),
             Object(NonMatching, "RVL_SDK/os/OSAlarm.c"),
             Object(NonMatching, "RVL_SDK/os/OSAlloc.c"),
-            Object(NonMatching, "RVL_SDK/os/OSArena.c")
+            Object(NonMatching, "RVL_SDK/os/OSArena.c"),
+            Object(NonMatching, "RVL_SDK/os/OSAudioSystem.c"),
+            Object(NonMatching, "RVL_SDK/os/OSCache.c"),
+            Object(NonMatching, "RVL_SDK/os/OSContext.c"),
+            Object(NonMatching, "RVL_SDK/os/OSError.c"),
+            Object(NonMatching, "RVL_SDK/os/OSExec.c"),
+            Object(NonMatching, "RVL_SDK/os/OSFatal.c")
         ],
     )
 ]

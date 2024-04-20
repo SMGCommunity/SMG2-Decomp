@@ -76,6 +76,26 @@
             "target_path": "build/SB4E01/obj/RVL_SDK/os/OSArena.o"
         },
         {
+            "name": "main/RVL_SDK/os/OSAudioSystem",
+            "target_path": "build/SB4E01/obj/RVL_SDK/os/OSAudioSystem.o"
+        },
+        {
+            "name": "main/RVL_SDK/os/OSCache",
+            "target_path": "build/SB4E01/obj/RVL_SDK/os/OSCache.o"
+        },
+        {
+            "name": "main/RVL_SDK/os/OSContext",
+            "target_path": "build/SB4E01/obj/RVL_SDK/os/OSContext.o"
+        },
+        {
+            "name": "main/RVL_SDK/os/OSError",
+            "target_path": "build/SB4E01/obj/RVL_SDK/os/OSError.o"
+        },
+        {
+            "name": "main/RVL_SDK/os/OSExec",
+            "target_path": "build/SB4E01/obj/RVL_SDK/os/OSExec.o"
+        },
+        {
             "name": "main/RVL_SDK/os/__start",
             "target_path": "build/SB4E01/obj/RVL_SDK/os/__start.o"
         },
@@ -86,6 +106,10 @@
         {
             "name": "main/RVL_SDK/os/__mem",
             "target_path": "build/SB4E01/obj/RVL_SDK/os/__mem.o"
+        },
+        {
+            "name": "main/RVL_SDK/os/OSFatal",
+            "target_path": "build/SB4E01/obj/RVL_SDK/os/OSFatal.o"
         },
         {
             "name": "main/Runtime.PPCEABI.H/__init_cpp_exceptions",

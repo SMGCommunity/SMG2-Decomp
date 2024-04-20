@@ -79,6 +79,30 @@ RVL_SDK/os/OSArena.c:
 	.sdata      start:0x807D0960 end:0x807D0968
 	.sbss       start:0x807D6680 end:0x807D6688
 
+RVL_SDK/os/OSAudioSystem.c:
+	.text       start:0x805B4F30 end:0x805B53F0
+	.data       start:0x8070CBC0 end:0x8070CC40
+
+RVL_SDK/os/OSCache.c:
+	.text       start:0x805B53F0 end:0x805B5810
+	.data       start:0x8070CC40 end:0x8070CDC8
+
+RVL_SDK/os/OSContext.c:
+	.text       start:0x805B5810 end:0x805B6210
+	.data       start:0x8070CDC8 end:0x8070CF80
+
+RVL_SDK/os/OSError.c:
+	.text       start:0x805B6210 end:0x805B6960
+	.data       start:0x8070CF80 end:0x8070D260
+	.bss        start:0x8077E530 end:0x8077E868
+	.sdata      start:0x807D096C end:0x807D0970
+
+RVL_SDK/os/OSExec.c:
+	.text       start:0x805B6960 end:0x805B80B0
+	.data       start:0x8070D260 end:0x8070D5B0
+	.sdata      start:0x807D0970 end:0x807D0980
+	.sbss       start:0x807D6688 end:0x807D66A0
+
 RVL_SDK/os/__start.c:
 	.init       start:0x80004000 end:0x80004360
 	.sbss       start:0x807D6720 end:0x807D6724
@@ -88,6 +112,12 @@ RVL_SDK/os/__ppc_eabi_init.cpp:
 
 RVL_SDK/os/__mem.c:
 	.init       start:0x800043C4 end:0x80004744
+
+RVL_SDK/os/OSFatal.c:
+	.text       start:0x805B80B0 end:0x805B8CE0
+	.bss        start:0x8077E868 end:0x8077E880
+	.sdata      start:0x807D0980 end:0x807D0988
+	.sdata2		start:0x807E26F0 end:0x807E2730
 
 Runtime.PPCEABI.H/__init_cpp_exceptions.cpp:
 	.text       start:0x8062E8FC end:0x8062E96C
