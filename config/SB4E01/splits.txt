@@ -117,7 +117,7 @@ RVL_SDK/os/OSFatal.c:
 	.text       start:0x805B80B0 end:0x805B8CE0
 	.bss        start:0x8077E868 end:0x8077E880
 	.sdata      start:0x807D0980 end:0x807D0988
-	.sdata2		start:0x807E26F0 end:0x807E2730
+	.sdata2     start:0x807E26F0 end:0x807E2730
 
 Runtime.PPCEABI.H/__init_cpp_exceptions.cpp:
 	.text       start:0x8062E8FC end:0x8062E96C
