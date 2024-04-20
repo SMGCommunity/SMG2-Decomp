@@ -96,6 +96,18 @@
             "target_path": "build/SB4E01/obj/RVL_SDK/os/OSExec.o"
         },
         {
+            "name": "main/RVL_SDK/os/OSFatal",
+            "target_path": "build/SB4E01/obj/RVL_SDK/os/OSFatal.o"
+        },
+        {
+            "name": "main/RVL_SDK/os/OSFont",
+            "target_path": "build/SB4E01/obj/RVL_SDK/os/OSFont.o"
+        },
+        {
+            "name": "main/RVL_SDK/os/OSInterrupt",
+            "target_path": "build/SB4E01/obj/RVL_SDK/os/OSInterrupt.o"
+        },
+        {
             "name": "main/RVL_SDK/os/__start",
             "target_path": "build/SB4E01/obj/RVL_SDK/os/__start.o"
         },
@@ -108,8 +120,12 @@
             "target_path": "build/SB4E01/obj/RVL_SDK/os/__mem.o"
         },
         {
-            "name": "main/RVL_SDK/os/OSFatal",
-            "target_path": "build/SB4E01/obj/RVL_SDK/os/OSFatal.o"
+            "name": "main/RVL_SDK/os/OSLink",
+            "target_path": "build/SB4E01/obj/RVL_SDK/os/OSLink.o"
+        },
+        {
+            "name": "main/RVL_SDK/os/OSMessage",
+            "target_path": "build/SB4E01/obj/RVL_SDK/os/OSMessage.o"
         },
         {
             "name": "main/Runtime.PPCEABI.H/__init_cpp_exceptions",

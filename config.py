@@ -265,7 +265,11 @@ config.libs = [
             Object(NonMatching, "RVL_SDK/os/OSContext.c"),
             Object(NonMatching, "RVL_SDK/os/OSError.c"),
             Object(NonMatching, "RVL_SDK/os/OSExec.c"),
-            Object(NonMatching, "RVL_SDK/os/OSFatal.c")
+            Object(NonMatching, "RVL_SDK/os/OSFatal.c"),
+            Object(NonMatching, "RVL_SDK/os/OSFont.c"),
+            Object(NonMatching, "RVL_SDK/os/OSInterrupt.c"),
+            Object(NonMatching, "RVL_SDK/os/OSLink.c"),
+            Object(NonMatching, "RVL_SDK/os/OSMessage.c")
         ],
     )
 ]
