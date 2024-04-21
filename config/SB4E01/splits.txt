@@ -120,6 +120,55 @@ RVL_SDK/os/OSInterrupt.c:
 	.data       start:0x8070E0C0 end:0x8070E0F0
 	.sbss       start:0x807D66B0 end:0x807D66C8
 
+RVL_SDK/os/OSLink.c:
+	.text       start:0x805BA1A0 end:0x805BA1C0
+
+RVL_SDK/os/OSMessage.c:
+	.text       start:0x805BA1C0 end:0x805BA4A0
+
+RVL_SDK/os/OSMemory.c:
+	.text       start:0x805BA4A0 end:0x805BAD10
+	.data       start:0x8070E0F0 end:0x8070E100
+	.sbss       start:0x807D66C8 end:0x807D66D0
+
+RVL_SDK/os/OSMutex.c:
+	.text       start:0x805BAD10 end:0x805BB030
+
+RVL_SDK/os/OSReboot.c:
+	.text       start:0x805BB030 end:0x805BB0C0
+	.sbss       start:0x807D66D0 end:0x807D66D8
+
+RVL_SDK/os/OSReset.c:
+	.text       start:0x805BB0C0 end:0x805BB9F0
+	.data       start:0x8070E100 end:0x8070E368
+	.sbss       start:0x807D66D8 end:0x807D66E8
+
+RVL_SDK/os/OSRtc.c:
+	.text       start:0x805BB9F0 end:0x805BC4A0
+	.bss        start:0x8077E880 end:0x8077E8D8
+
+RVL_SDK/os/OSSync.c:
+	.text       start:0x805BC4A0 end:0x805BC520
+
+RVL_SDK/os/OSThread.c:
+	.text       start:0x805BC520 end:0x805BDD70
+	.bss        start:0x8077E8D8 end:0x8077F300
+	.sdata      start:0x807D0990 end:0x807D0998
+	.sbss       start:0x807D66E8 end:0x807D66F8
+
+RVL_SDK/os/OSTime.c:
+	.text       start:0x805BDD70 end:0x805BE1A0
+	.data       start:0x8070E368 end:0x8070E3C8
+
+RVL_SDK/os/OSUtf.c:
+	.text       start:0x805BE1A0 end:0x805BE3F0
+	.data       start:0x8070E3C8 end:0x8071A208
+
+RVL_SDK/os/OSIpc.c:
+	.text       start:0x805BE3F0 end:0x805BE430
+	.sdata      start:0x807D0998 end:0x807D09A0
+	.sbss       start:0x807D66F8 end:0x807D6700
+
 RVL_SDK/os/__start.c:
 	.init       start:0x80004000 end:0x80004360
 	.sbss       start:0x807D6720 end:0x807D6724
@@ -129,12 +178,6 @@ RVL_SDK/os/__ppc_eabi_init.cpp:
 
 RVL_SDK/os/__mem.c:
 	.init       start:0x800043C4 end:0x80004744
-
-RVL_SDK/os/OSLink.c:
-	.text       start:0x805BA1A0 end:0x805BA1C0
-
-RVL_SDK/os/OSMessage.c:
-	.text       start:0x805BA1C0 end:0x805BA4A0
 
 Runtime.PPCEABI.H/__init_cpp_exceptions.cpp:
 	.text       start:0x8062E8FC end:0x8062E96C

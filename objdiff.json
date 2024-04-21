@@ -108,6 +108,54 @@
             "target_path": "build/SB4E01/obj/RVL_SDK/os/OSInterrupt.o"
         },
         {
+            "name": "main/RVL_SDK/os/OSLink",
+            "target_path": "build/SB4E01/obj/RVL_SDK/os/OSLink.o"
+        },
+        {
+            "name": "main/RVL_SDK/os/OSMessage",
+            "target_path": "build/SB4E01/obj/RVL_SDK/os/OSMessage.o"
+        },
+        {
+            "name": "main/RVL_SDK/os/OSMemory",
+            "target_path": "build/SB4E01/obj/RVL_SDK/os/OSMemory.o"
+        },
+        {
+            "name": "main/RVL_SDK/os/OSMutex",
+            "target_path": "build/SB4E01/obj/RVL_SDK/os/OSMutex.o"
+        },
+        {
+            "name": "main/RVL_SDK/os/OSReboot",
+            "target_path": "build/SB4E01/obj/RVL_SDK/os/OSReboot.o"
+        },
+        {
+            "name": "main/RVL_SDK/os/OSReset",
+            "target_path": "build/SB4E01/obj/RVL_SDK/os/OSReset.o"
+        },
+        {
+            "name": "main/RVL_SDK/os/OSRtc",
+            "target_path": "build/SB4E01/obj/RVL_SDK/os/OSRtc.o"
+        },
+        {
+            "name": "main/RVL_SDK/os/OSSync",
+            "target_path": "build/SB4E01/obj/RVL_SDK/os/OSSync.o"
+        },
+        {
+            "name": "main/RVL_SDK/os/OSThread",
+            "target_path": "build/SB4E01/obj/RVL_SDK/os/OSThread.o"
+        },
+        {
+            "name": "main/RVL_SDK/os/OSTime",
+            "target_path": "build/SB4E01/obj/RVL_SDK/os/OSTime.o"
+        },
+        {
+            "name": "main/RVL_SDK/os/OSUtf",
+            "target_path": "build/SB4E01/obj/RVL_SDK/os/OSUtf.o"
+        },
+        {
+            "name": "main/RVL_SDK/os/OSIpc",
+            "target_path": "build/SB4E01/obj/RVL_SDK/os/OSIpc.o"
+        },
+        {
             "name": "main/RVL_SDK/os/__start",
             "target_path": "build/SB4E01/obj/RVL_SDK/os/__start.o"
         },
@@ -118,14 +166,6 @@
         {
             "name": "main/RVL_SDK/os/__mem",
             "target_path": "build/SB4E01/obj/RVL_SDK/os/__mem.o"
-        },
-        {
-            "name": "main/RVL_SDK/os/OSLink",
-            "target_path": "build/SB4E01/obj/RVL_SDK/os/OSLink.o"
-        },
-        {
-            "name": "main/RVL_SDK/os/OSMessage",
-            "target_path": "build/SB4E01/obj/RVL_SDK/os/OSMessage.o"
         },
         {
             "name": "main/Runtime.PPCEABI.H/__init_cpp_exceptions",

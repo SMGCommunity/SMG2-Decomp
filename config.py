@@ -268,8 +268,18 @@ config.libs = [
             Object(NonMatching, "RVL_SDK/os/OSFatal.c"),
             Object(NonMatching, "RVL_SDK/os/OSFont.c"),
             Object(NonMatching, "RVL_SDK/os/OSInterrupt.c"),
+            Object(NonMatching, "RVL_SDK/os/OSIpc.c"),
             Object(NonMatching, "RVL_SDK/os/OSLink.c"),
-            Object(NonMatching, "RVL_SDK/os/OSMessage.c")
+            Object(NonMatching, "RVL_SDK/os/OSMemory.c"),
+            Object(NonMatching, "RVL_SDK/os/OSMessage.c"),
+            Object(NonMatching, "RVL_SDK/os/OSMutex.c"),
+            Object(NonMatching, "RVL_SDK/os/OSReboot.c"),
+            Object(NonMatching, "RVL_SDK/os/OSReset.c"),
+            Object(NonMatching, "RVL_SDK/os/OSRtc.c"),
+            Object(NonMatching, "RVL_SDK/os/OSSync.c"),
+            Object(NonMatching, "RVL_SDK/os/OSThread.c"),
+            Object(NonMatching, "RVL_SDK/os/OSTime.c"),
+            Object(NonMatching, "RVL_SDK/os/OSUtf.c"),
         ],
     )
 ]
